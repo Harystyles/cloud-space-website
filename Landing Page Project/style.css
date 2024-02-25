@@ -1,0 +1,244 @@
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+ul {
+  list-style-type: none;
+}
+#container {
+  width: 70%;
+  margin: 10px auto;
+  background: white;
+  overflow: auto;
+}
+p {
+  margin: 10px 0;
+  line-height: 1.3cm;
+}
+h1 {
+  font-size: 39px;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+  line-height: 1.5cm;
+}
+h3 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+h4 {
+  font-size: 19px;
+  margin: 10px 0;
+}
+strong {
+  font-weight: bolder;
+}
+.clearfix {
+  /*clear anything that has been floated to the left or right*/
+  clear: both;
+}
+#content-header {
+  border-top: #ddd solid 0.01px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.content-footer {
+  border-top: #ddd solid 1px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+div.content-footer p {
+  text-align: center;
+}
+header#main-header {
+  border-bottom: 4px solid #25bcff;
+}
+#logo {
+  margin: auto;
+  display: block; /*set log as block in order for margin to work. Image by default is inline. Inline elements do not have a width property, and so the "auto" cannot be calculated. Block elements have a width property, so the width of the "auto" can be calculated. Inline-block elements have an outside which acts inline, but an inside which acts like a block.*/
+}
+#image1 {
+  width: 15%;
+  display: block;
+}
+#image2 {
+  width: 15%;
+  display: block;
+}
+#image3 {
+  width: 15%;
+  display: block;
+}
+.points img {
+  float: left;
+  margin-right: 7px;
+}
+.points h4 {
+  padding-top: 5px;
+}
+#main-text {
+  text-align: center;
+  color: #333;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#sub-1 {
+  float: left;
+  width: 48%;
+}
+#sub-2 {
+  float: right;
+  width: 48%;
+}
+#contact-form {
+  padding: 10px 15px 15px 15px;
+  border: 4px solid #25bcff;
+  border-radius: 10px;
+}
+#contact-form div {
+  margin-bottom: 20px;
+}
+#contact-form label {
+  display: inline-block; /*allows you to put width on it */
+  width: 100px;
+  font-weight: bold;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"] {
+  border: #ccc solid 1px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 25px;
+  width: 65%;
+}
+#contact-form input[type="submit"] {
+  padding: 12px 17px;
+  color: #fff;
+  background-color: #fa6e3e;
+  border: 0;
+  border-radius: 5px;
+  float: right;
+  display: block;
+}
+#contact-form input[type="submit"]:hover {
+  background-color: #d55427;
+  cursor: pointer;
+}
+#contact-form.content-footer {
+  font-style: italic;
+  text-align: center;
+  color: #666;
+  font-size: 80%;
+}
+#testimonial {
+  margin: 40px 0;
+  font-style: italic;
+  color: #666;
+}
+#testimonial img {
+  float: left;
+  margin: 20px 20px 50px 10px;
+  width: 12%;
+  display: block;
+}
+footer#main-footer {
+  text-align: center;
+  border-top: #000 solid 1px;
+  color: #aaa;
+}
+
+@media (max-width: 960px) {
+  #container {
+    width: 80%;
+  }
+  h1 {
+    font-size: 33px;
+  }
+  #sub-1,
+  #sub-2 {
+    float: none;
+    width: 100%;
+  }
+  .points li {
+    background: #eee;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 6px;
+  }
+  .points img {
+    margin-top: 7px;
+  }
+  #testimonial img {
+    float: none;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 568px /*max width for mobile device*/) {
+  h1 {
+    font-size: 22px;
+  }
+}
+/*
+body.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  body.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  */
