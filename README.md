@@ -1,4 +1,4 @@
-# Cloud Space Website
+<img width="1440" alt="Screenshot 2024-02-25 at 01 40 16" src="https://github.com/Harystyles/cloud-space-website/assets/111004681/f0d47098-4b6b-4ae2-99d9-7a112e8db3f3"># Cloud Space Website
 
 Welcome to the official repository for the Cloud Space website, the secure, reliable, and easy-to-use cloud storage solution for individuals and businesses. This repository contains the source code and documentation for our website.
 
@@ -15,6 +15,9 @@ Cloud Space offers a cloud storage solution that is secure, accessible, and easy
 ## Getting Started
 
 To get started with the Cloud Space website, clone this repository to your local machine:
+<img width="1440" alt="Screenshot 2024-02-25 at 01 40 16" src="https://github.com/Harystyles/cloud-space-website/assets/111004681/7aeeb0ec-fa9f-4567-ad11-1312f95b9448">
+<img width="1440" alt="Screenshot 2024-02-25 at 01 44 32" src="https://github.com/Harystyles/cloud-space-website/assets/111004681/ddc8cfd2-6f9a-45b7-9d1f-ee1b0daa0b25">
 
 ```bash
 git clone https://github.com/Harystyles/cloud-space-website
+
