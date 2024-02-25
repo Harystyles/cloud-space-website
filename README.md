@@ -1,4 +1,4 @@
-<img width="1440" alt="Screenshot 2024-02-25 at 01 40 16" src="https://github.com/Harystyles/cloud-space-website/assets/111004681/f0d47098-4b6b-4ae2-99d9-7a112e8db3f3"># Cloud Space Website
+# Cloud Space Website
 
 Welcome to the official repository for the Cloud Space website, the secure, reliable, and easy-to-use cloud storage solution for individuals and businesses. This repository contains the source code and documentation for our website.
 
